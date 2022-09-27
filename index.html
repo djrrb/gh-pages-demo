@@ -1,0 +1,32 @@
+<html>
+    <head> 
+        <title>T-Street</title>
+        <style>
+            
+            body {
+                background: black;
+                margin: 0;
+            }
+            .logo {           
+              display: flex; /* use CSS flexbox */
+              justify-content: center; /* align horizontally */
+              align-items: center; /* align vertically */
+              /* let the logo area occupy the full page */
+              height: 100%; 
+              width: 100%;
+            }
+            
+            .logo img {
+                width: 80vw; /* by default, let the logo occupy 80% of the viewport width */ 
+                max-width: 3000px; /* don’t let the logo get so big it gets pixely */ 
+                min-width: 40rem; /* don’t let it get too small */
+            }
+        
+        </style>
+    </head>
+    <body>
+        <div class="logo">
+            <img src="assets/logo.png" />
+        </div>
+    </body>
+</html>
